@@ -49,6 +49,23 @@ class MainActivity : AppCompatActivity() {
             imc = peso / (altura * altura)
 
         imcText.text = "%.2f".format(imc)
+        updateStatus(imc)
+    }
+
+    //CODE INSERTION BY JAIRO.FREITAS
+    fun updateStatus(imc: Double) {
+        val textStatus = when {
+            imc == 0.0 -> "Informe o peso"
+            imc < 17 -> "Muito abaixo do peso"
+            imc < 18.5 -> "Abaixo do peso"
+            imc < 25 -> "Peso normal"
+            imc < 30 -> "Acima do peso"
+            imc < 35 -> "Obesidade I"
+            imc < 40 -> "Obesidade II (severa)"
+            else -> "Obesidade III (mórbida)"
+        }
+
+        imcStatusText.text = textStatus
     }
 
     fun updatePeso(progress: Int) {
