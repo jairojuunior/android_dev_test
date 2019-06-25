@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
         alturaSeek = findViewById(R.id.altura_seek)
     }
 
+
     private fun init() {
         alturaSeek.progress = 170
         pesoSeek.progress = 60

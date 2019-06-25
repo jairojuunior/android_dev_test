@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/area_label"
+            android:layout_width="0dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="36dp"
+            android:text="Aŕea do ambiente"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+            android:id="@+id/area_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="m²"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/area_label"
+            app:layout_constraintTop_toBottomOf="@+id/area_label" />
+
+    <SeekBar
+            android:id="@+id/area_seek"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:max="100"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/area_text" />
+
+
+    <TextView
+            android:id="@+id/pessoas_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Quantidade de pessoas"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/area_text"
+            app:layout_constraintTop_toBottomOf="@+id/area_text" />
+
+    <TextView
+            android:id="@+id/pessoas_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="pss"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/pessoas_label"
+            app:layout_constraintTop_toBottomOf="@+id/pessoas_label" />
+
+    <SeekBar
+            android:id="@+id/pessoas_seek"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:max="50"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/pessoas_text" />
+    <Switch
+            android:id="@+id/luz_solar_switch"
+            android:text="O ambiente recebe luz solar diretamente?"
+            android:checked="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="@+id/pessoas_text"
+            app:layout_constraintTop_toBottomOf="@+id/pessoas_text"
+            android:textOn="@+string/luz_solar_switch_on"
+            android:textOff="@+string/luz_solar_switch_off"/>
+
+    <TextView
+            android:id="@+id/btu_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Aqui está sua configuração de ar-condicionado"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/luz_solar_switch"
+            app:layout_constraintTop_toBottomOf="@+id/luz_solar_switch" />
+
+
+    <TextView
+            android:id="@+id/btu_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BTUs"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#006400"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btu_label" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
