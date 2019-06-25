@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="br.edu.ufabc.padm.uicomponents.RadioButtonDemo">
+
+    <TextView
+        android:id="@+id/radio_message"
+        android:text="@string/radio_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_message">
+        <RadioButton android:id="@+id/option_professor"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/professor_label"
+            android:onClick="radioButtonClickHandler" />
+        <RadioButton android:id="@+id/option_ta"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/ta_label"
+            android:onClick="radioButtonClickHandler" />
+        <RadioButton android:id="@+id/option_undergrad"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/undergrad_label"
+            android:onClick="radioButtonClickHandler" />
+        <RadioButton android:id="@+id/option_grad"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/grad_label"
+            android:onClick="radioButtonClickHandler" />
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_red">#940000</color>
+    <color name="light_red">#C30101</color>
+    <color name="dark_blue">#1976D2</color>
+    <color name="light_blue">#2196F3</color>
+    <color name="pink">#ff85cb</color>
+
+    <color name="primaryColorCB">#9c27b0</color>
+    <color name="primaryLightColorCB">#d05ce3</color>
+    <color name="primaryDarkColorCB">#6a0080</color>
+    <color name="primaryTextColorCB">#ffffff</color>
+</resources>

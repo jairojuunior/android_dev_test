@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="br.edu.ufabc.padm.uicomponents.CheckboxDemo">
+
+
+    <TextView
+        android:id="@+id/intro_message"
+        android:text="@string/intro_message" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/read_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/read_message"
+        android:layout_alignLeft="@id/intro_message"
+        android:layout_below="@id/intro_message"
+        android:paddingTop="10dp"/>
+
+    <CheckBox
+        android:id="@+id/read_check"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignBottom="@id/read_label"
+        android:layout_alignParentRight="true"
+        android:paddingRight="20dp"
+        android:onClick="handleCheckboxClick"/>
+
+    <TextView
+        android:id="@+id/write_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/write_message"
+        android:layout_alignLeft="@id/intro_message"
+        android:layout_below="@id/read_check"
+        android:paddingTop="10dp"/>
+
+    <CheckBox
+        android:id="@+id/write_check"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignBottom="@id/write_label"
+        android:layout_alignParentRight="true"
+        android:paddingRight="20dp"
+        android:onClick="handleCheckboxClick"/>
+
+    <TextView
+        android:id="@+id/execute_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/execute_message"
+        android:layout_alignLeft="@id/intro_message"
+        android:layout_below="@id/write_check"
+        android:paddingTop="10dp"/>
+
+    <CheckBox
+        android:id="@+id/execute_check"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignBottom="@id/execute_label"
+        android:layout_alignParentRight="true"
+        android:paddingRight="20dp"
+        android:onClick="handleCheckboxClick"/>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.ufabc.padm.uicomponents">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_uicomponents_demo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ButtonDemo"
+            android:label="@string/title_activity_button_demo" />
+        <activity
+            android:name=".EditTextDemo"
+            android:label="@string/title_activity_edit_text_demo" />
+        <activity
+            android:name=".CheckboxDemo"
+            android:label="@string/title_activity_checkbox_demo" />
+        <activity
+            android:name=".RadioButtonDemo"
+            android:label="@string/title_activity_radio_button_demo" />
+        <activity
+            android:name=".ToggleButtonDemo"
+            android:label="@string/title_activity_toggle_button_demo" />
+        <activity
+            android:name=".SpinnerDemo"
+            android:label="@string/title_activity_spinner" />
+        <activity
+            android:name=".ActionBarDemo"
+            android:label="@string/title_activity_action_bar_demo" />
+        <activity
+            android:name=".MenuDemo"
+            android:label="@string/title_menu_demo" />
+        <activity
+            android:name=".ButtonStyleDemo"
+            android:label="@string/title_button_style_demo"/>
+    </application>
+
+</manifest>

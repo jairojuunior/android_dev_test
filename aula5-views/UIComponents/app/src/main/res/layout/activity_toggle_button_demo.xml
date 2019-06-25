@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="br.edu.ufabc.padm.uicomponents.ToggleButtonDemo">
+
+    <TextView
+        android:id="@+id/toggle_message"
+        android:text="@string/toggle_message" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ToggleButton
+        android:id="@+id/popup_notification"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textOn="@string/popup_notification_on"
+        android:textOff="@string/popup_notification_off"
+        android:padding="10dp"
+        android:onClick="handleToggle"/>
+
+    <ToggleButton
+        android:id="@+id/email_notification"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textOn="@string/email_notification_on"
+        android:textOff="@string/email_notification_off"
+        android:padding="10dp"
+        android:onClick="handleToggle"/>
+
+    <ToggleButton
+        android:id="@+id/sms_notification"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textOn="@string/sms_notification_on"
+        android:textOff="@string/sms_notification_off"
+        android:padding="10dp"
+        android:onClick="handleToggle"/>
+
+    <TextView
+        android:id="@+id/switch_message"
+        android:text="@string/switch_message" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/switch_notification_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Popup"
+            android:paddingTop="20dp"/>
+        <Switch
+            android:id="@+id/switch_popup_notification"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_alignBottom="@id/switch_notification_label"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="handleSwitch"/>
+
+        <TextView
+            android:id="@+id/switch_email_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Email"
+            android:layout_below="@id/switch_popup_notification"
+            android:paddingTop="30dp"/>
+        <Switch
+            android:id="@+id/switch_email_notification"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_alignBottom="@id/switch_email_label"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:onClick="handleSwitch"/>
+
+        <TextView
+            android:id="@+id/switch_sms_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="SMS"
+            android:layout_below="@id/switch_email_notification"
+            android:paddingTop="30dp"/>
+        <Switch
+            android:id="@+id/switch_sms_notification"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_alignBottom="@id/switch_sms_label"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:onClick="handleSwitch"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

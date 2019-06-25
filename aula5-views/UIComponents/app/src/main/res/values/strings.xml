@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">UiComponents</string>
+    <string name="title_activity_uicomponents_demo">UI Components Demo</string>
+
+    <string name="action_settings">Settings</string>
+
+    <array name="component_choices">
+        <item>Select a component...</item>
+        <item>Button</item>
+        <item>Text field</item>
+        <item>Checkbox</item>
+        <item>Radio button</item>
+        <item>Toggle button</item>
+        <item>Spinner</item>
+        <item>Action bar</item>
+        <item>Menu</item>
+        <item>Button theme</item>
+    </array>
+
+    <string name="title_activity_button_demo">ButtonDemo</string>
+    <string name="normal_button_message">You clicked a normal button!</string>
+    <string name="image_button_message">You clicked an ImageButton!</string>
+    <string name="icon_text_button_message">You clicked a button with icon text!</string>
+    <string name="title_activity_edit_text_demo">EditTextDemo</string>
+    <string name="normal_text">Type anything</string>
+    <string name="email_text">Type an email</string>
+    <string name="uri_text">Type a URI</string>
+    <string name="number_text">Type a number</string>
+    <string name="phone_text">Type a phone</string>
+    <string name="password_text">Type a password</string>
+    <string name="long_text">Type a multiline text</string>
+    <string name="send_text">Type something then press send</string>
+    <string name="text_send_status">Your message has been sent</string>
+    <string name="autocomplete_text">Type a city</string>
+    <string name="title_activity_checkbox_demo">CheckboxDemo</string>
+    <string name="intro_message">Check permissions below:</string>
+    <string name="read_message">Read</string>
+    <string name="write_message">Write</string>
+    <string name="execute_message">Execute</string>
+    <string name="title_activity_radio_button_demo">RadioButtonDemo</string>
+    <string name="radio_message">Choose your role:</string>
+    <string name="professor_label">Professor</string>
+    <string name="ta_label">Teaching Assistant</string>
+    <string name="undergrad_label">Undergrad Student</string>
+    <string name="grad_label">Graduate Student</string>
+    <string name="title_activity_toggle_button_demo">ToggleButtonDemo</string>
+    <string name="toggle_message">Enable/disable notifications below</string>
+    <string name="popup_notification_on">Popup notification on</string>
+    <string name="popup_notification_off">Popup notification off</string>
+    <string name="email_notification_on">Email notification on</string>
+    <string name="email_notification_off">Email notification off</string>
+    <string name="sms_notification_on">SMS notification on</string>
+    <string name="sms_notification_off">SMS notification off</string>
+    <string name="switch_message">The same as above, but using switches:</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="spinner_intro">The main activity of this app has a Spinner! Just go back and see it in action.</string>
+    <string name="home_message">Choose a component from the list below to see a demo</string>
+    <string name="title_activity_action_bar_demo">ActionBar Demo</string>
+    <string name="title_activity_menu_demo">Menu Demo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_add">Adicionar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_remove">Remover</string>
+    <string name="unknown_operation">Operação desconhecida</string>
+    <string name="action_bar_instructions">Escolha uma opção na Action bar</string>
+    <string name="add_status">Operação de inclusão</string>
+    <string name="remove_status">Operação de remoção</string>
+    <string name="edit_status">Operação de edição</string>
+    <string name="context_menu_title">Modificar items</string>
+    <string name="context_menu_selected_count">%1$d cidades</string>
+    <string name="status_context_add">Deveria remover %1$d items.</string>
+    <string name="action_share">Compartilhar</string>
+    <string name="status_context_share">Deveria compartilhar %1$d items</string>
+    <string name="title_menu_demo">Menu Demo</string>
+    <string name="menu_instruction">Long press an item to activate multiple selection</string>
+    <string name="title_activity_button_style_demo">ButtonStyleDemo</string>
+    <string name="title_button_style_demo">Button style</string>
+    <string name="setting_status">Abrir configurações</string>
+</resources>
