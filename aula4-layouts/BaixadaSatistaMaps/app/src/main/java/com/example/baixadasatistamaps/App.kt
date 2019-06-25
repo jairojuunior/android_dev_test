@@ -1,4 +1,4 @@
-package br.edu.ufabc.padm.layoutdemo
+package com.example.baixadasatistamaps
 
 import android.app.Application
 import android.content.Context

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BaixadaSatistaMaps</string>
+    <string name="grid_item_clicked">\"You clicked item %d\"</string>
+</resources>
