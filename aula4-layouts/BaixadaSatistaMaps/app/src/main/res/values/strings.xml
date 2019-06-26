@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">BaixadaSatistaMaps</string>
     <string name="grid_item_clicked">\"You clicked item %d\"</string>
+    <string-array name="string_array_images_baixada">
+        <item>bertioga</item>
+        <item>cubatao</item>
+        <item>guaruja</item>
+        <item>itanhaem</item>
+        <item>mongagua</item>
+        <item>peruibe</item>
+        <item>praia_grande</item>
+        <item>santos</item>
+        <item>sao_vicente</item>
+    </string-array>
 </resources>
+
+<!--
+R.drawable.bertioga, R.drawable.cubatao, R.drawable.guaruja,
+        R.drawable.itanhaem, R.drawable.mongagua, R.drawable.peruibe,
+        R.drawable.praia_grande, R.drawable.santos, R.drawable.sao_vicente
+-->

@@ -1,5 +1,6 @@
 package com.example.baixadasatistamaps
 
+import android.content.res.Resources
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
@@ -10,6 +11,8 @@ import android.widget.ImageView
  */
 class ImageAdapter : BaseAdapter() {
     // references to images (as resources)
+    val res: Resources = resources
+    val city_names = res.getStringArray(R.array.string_array_images_baixada)
     private val thumbnails = arrayOf(
         R.drawable.bertioga, R.drawable.cubatao, R.drawable.guaruja,
         R.drawable.itanhaem, R.drawable.mongagua, R.drawable.peruibe,

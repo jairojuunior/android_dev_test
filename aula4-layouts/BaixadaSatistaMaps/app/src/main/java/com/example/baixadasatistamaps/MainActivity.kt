@@ -1,12 +1,13 @@
 package com.example.baixadasatistamaps
 
 import android.content.Intent
+import android.content.res.Resources
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.GridView
-import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,10 +23,13 @@ class MainActivity : AppCompatActivity() {
 
         gridView.adapter = ImageAdapter()
         gridView.setNumColumns(3)
+
+        val res: Resources = resources
+        val city_names = res.getStringArray(R.array.string_array_images_baixada)
+
         gridView.onItemClickListener = AdapterView.OnItemClickListener { _, view, i, _ ->
-            val city = "${(view as TextView).text.toString()} + , SP, Brazil".replace(' ', '+')
+            val city = "${city_names[i]} + , SP, Brazil".replace(' ', '+')
             val geoIntent: Intent
-            getResources().getResourceEntryName(gridView[i])
             geoIntent = Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=$city"))
             startActivity(geoIntent)
         }
