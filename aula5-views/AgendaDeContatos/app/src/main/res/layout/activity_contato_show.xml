@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0"
+    android:padding="15dp">
+    <TextView android:id="@+id/contato_item_nome"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TableRow>
+        <TextView android:text="@string/contato_item_email_label"
+            android:textStyle="bold"/>
+        <TextView android:id="@+id/contato_item_email" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/contato_item_endereco_label"
+            android:textStyle="bold"/>
+        <TextView android:id="@+id/contato_item_endereco"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/contato_item_telcom_label"
+            android:textStyle="bold"/>
+        <TextView android:id="@+id/contato_item_telcom"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/contato_item_telres_label"
+            android:textStyle="bold"/>
+        <TextView android:id="@+id/contato_item_telres"/>
+    </TableRow>
+
+</TableLayout>
