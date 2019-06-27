@@ -27,10 +27,12 @@
         <compilerSettings />
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/debug" />
-          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0d9db7949767d4cda06dad418e02cc8b/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/b48ae3367f38ff7535a1466e1777dc94/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/7509222f25fa4cb8d8e3432f2454510a/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/5da51b34e4f57063d6bf6962cb8b3daf/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/db66bc5055a710dbed13839b970371ea/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/36533de611a359f8021847d2bbb13b15/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/9171503b8e6216fadbe2942a3a59d0d8/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/0d7cd2f2b0952c18a85177c2f84d3184/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/b05d256cb0fbcac59ce8699c8cf89279/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/11c966d6fa8c4d1094b4bd6b957e99dc/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/87b9cd2d26af9d879024551b2ef6f086/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/c12d95293eb0e5a57c7c95194108379c/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/2613ba7159cc862bb23c57404fb1781a/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/6a290121f53fd04eea431d2383cba42e/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/b61226e041758ec788ccb62b08ce5917/jars/classes.jar:/home/diogo/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0-beta01/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0-beta01.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/42abb0287520d6e646691b99617ab79c/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/b857b330e55468697b6e5a6fafe3593b/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/ad600f2adc5666c130a91762991c8697/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/dcda644d0f6c4723d1b8a3f6072bf696/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/12db4cbbdf21bda07e511eb1234151e6/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/cbbf5daa4c65928e2f91f846456198d1/jars/classes.jar:/home/diogo/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0-beta01/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0-beta01.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/c71759a757ac57c2d6e43d990e6c2552/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/fe1a0de9b21edfa9254382dde1cd5c96/jars/classes.jar:/home/diogo/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0-beta01/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0-beta01.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/e51136e8bca046d42e53bff36f59e732/jars/classes.jar:/home/diogo/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0-beta01/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0-beta01.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/f8ff33e26dfe2d16f0536510079616ee/jars/classes.jar:/home/diogo/.gradle/caches/transforms-2/files-2.1/a351e114f474b87624458ac6634d3a11/jars/classes.jar:/home/diogo/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.2/d324137427d23f643b61a2ad1cb20df2b8b1eb97/constraintlayout-solver-1.1.2.jar:/home/diogo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.31/e652770b6416c6d85934086899ffed3eccd35813/kotlin-stdlib-jdk7-1.3.31.jar:/home/diogo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.31/11289d20fd95ae219333f3456072be9f081c30cc/kotlin-stdlib-1.3.31.jar:/home/diogo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/20c34a04ea25cb1ef0139598bd67c764562cb170/kotlin-stdlib-common-1.3.31.jar:/home/diogo/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/home/diogo/Android/Sdk/platforms/android-28/android.jar" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ddae7f1a4c8e0404084b9346b630eea/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/e44a287da18844373bf76d54c53622a9/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/9e010eec60adc8831e71cce0250fe636/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/189cd000823ba0f1f52cf62f09e8cf36/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/0ab19065ff4d1f7094219cb48973d2e1/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/f5a8ed317fb71e231b5b7af7f0506017/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/f8ecca12a177dfdcd6a3ef6268ae4f51/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/b34847e6ae91c39670ca3d0d4e70385e/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/2e5f16de96c11b1118d8cf2eeb8bd3f7/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/b3898243df1965a6fa760a081e9830b8/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/680d50973c3c9a2ca86249f6f2e86fab/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/665605a020058396bb159b339b9f6c7e/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/3729f1fd111107ffb7f0f5a5f594a84d/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/39f506e2c9a4318c1f8023168397a8f7/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/163ef36f23d7625591b5f9d7f82fb255/jars/classes.jar:/home/ufabc/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0-beta01/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0-beta01.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/db64f8bb1df041d0f25e36cabb97b75b/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/5ded9f07ff7f6d40196d0c369a4e4f89/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/e0ad7c8db58ed2bae25de565a12e2846/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/5075f14923bfdc7ccbccf79d2c24bd92/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/6bb6b8ca694367283ed695e2396dff93/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/7afd6672d7c6938d207347b5896b521c/jars/classes.jar:/home/ufabc/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0-beta01/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0-beta01.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/4ce71597173c1b509a20fa76cb67a8ff/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/95a352d5f7dd5119f8debb280cc8b5a8/jars/classes.jar:/home/ufabc/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0-beta01/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0-beta01.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/c7ba329f97729497a1d8f786a3034596/jars/classes.jar:/home/ufabc/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0-beta01/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0-beta01.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/e2371cc91a72ed5311c1a93ef502e943/jars/classes.jar:/home/ufabc/.gradle/caches/transforms-2/files-2.1/6f0d84d8b61a7e538a6c74c7dd4ae556/jars/classes.jar:/home/ufabc/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.2/d324137427d23f643b61a2ad1cb20df2b8b1eb97/constraintlayout-solver-1.1.2.jar:/home/ufabc/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.31/e652770b6416c6d85934086899ffed3eccd35813/kotlin-stdlib-jdk7-1.3.31.jar:/home/ufabc/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.31/11289d20fd95ae219333f3456072be9f081c30cc/kotlin-stdlib-1.3.31.jar:/home/ufabc/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/20c34a04ea25cb1ef0139598bd67c764562cb170/kotlin-stdlib-common-1.3.31.jar:/home/ufabc/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/home/ufabc/Android/Sdk/platforms/android-28/android.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
           <option name="moduleName" value="app_debug" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
           <option name="languageVersion" value="1.3" />
           <option name="apiVersion" value="1.3" />
           <option name="pluginOptions">
@@ -77,13 +79,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
@@ -91,6 +86,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
@@ -117,16 +119,23 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/annotation_processor_list" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/apk_list" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/build-info" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/bundle_manifest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check_manifest_result" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/compatible_screen_manifest" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/duplicate_classes_check" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-runtime-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-verifier" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_app_manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_run_app_info_output_file" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_run_main_apk_resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_run_merged_manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_run_split_apk_resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javac" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint_jar" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifest-checker" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_jni_libs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_manifests" />
@@ -134,9 +143,12 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/metadata_feature_manifest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/processed_res" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shader_assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/signing_config" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/split-apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/validate_signing_config" />

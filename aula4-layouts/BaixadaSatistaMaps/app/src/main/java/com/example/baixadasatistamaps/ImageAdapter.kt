@@ -20,7 +20,7 @@ class ImageAdapter : BaseAdapter() {
         R.drawable.bertioga, R.drawable.cubatao, R.drawable.guaruja,
         R.drawable.itanhaem, R.drawable.mongagua, R.drawable.peruibe,
         R.drawable.praia_grande, R.drawable.santos, R.drawable.sao_vicente)
-    
+
     override fun getCount(): Int {
         return thumbnails.size
     }
